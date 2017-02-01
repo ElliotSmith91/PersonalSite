@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
+<head>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+  <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
+  <meta name="description" content="<?= $site->description()->html() ?>">
+
+  <?= css('assets/css/app.css') ?>
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
+
+</head>
+<body>
+
+  <header class="nav-bar" role="banner">
+    <div class="grid">
+
+      <div class="branding column">
+        <a href="<?= url() ?>" rel="home">Elliot Smith</a>
+      </div>
+
+      <?php snippet('menu') ?>
+
+    </div>
+  </header>
