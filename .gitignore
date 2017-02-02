@@ -21,11 +21,10 @@ site/cache/*
 # Exclude _site content assets & site
 _site/assets/**
 _site/content/**
-_site/site/blueprints/**
-_site/site/controllers/**
-_site/site/snippets/**
-_site/site/templates/**
-
+_site/site/blueprints
+_site/site/controllers
+_site/site/snippets
+_site/site/templates
 
 ### Node ###
 # Logs

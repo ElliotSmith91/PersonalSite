@@ -3,3 +3,6 @@ Use an image compressor with gulp...
 Bug check, change vars json file to be more readable...
 bug for index.css in styles.js
 gulp file change for changing snippets/ templates of kirby BS refresh
+bug on first running gulp no site shown
+clean out all _site/site other than config accounts cache etc.
+When running gulp, changing file won't copy new images to assets etc.

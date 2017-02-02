@@ -15,14 +15,10 @@
 </head>
 <body>
 
-  <header class="nav-bar" role="banner">
-    <div class="grid">
-
-      <div class="branding column">
-        <a href="<?= url() ?>" rel="home">Elliot Smith</a>
-      </div>
+  <header class="header" role="banner">
+    <div class="header--wrap">
+        <a href="<?= url() ?>" rel="home"><span><img class="header--logo" src="/assets/images/logo.svg" alt="logo"></img></span></a>
 
       <?php snippet('menu') ?>
-
     </div>
   </header>

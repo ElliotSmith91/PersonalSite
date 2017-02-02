@@ -1,7 +1,7 @@
-<nav class="navigation column" role="navigation">
-  <ul class="menu">
+<nav class="header--nav" role="navigation">
+  <ul class="header--menu">
     <?php foreach($pages->visible() as $item): ?>
-    <li class="menu-item<?= r($item->isOpen(), ' is-active') ?>">
+    <li class="header--menu-item<?= r($item->isOpen(), ' is-active') ?>">
       <a href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
     </li>
     <?php endforeach ?>

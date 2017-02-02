@@ -1,11 +1,23 @@
 edit()
+@require "vars"
+
+*
+  box-sizing: border-box;
+
+html
+  box-sizing: border-box;
 
 body
   background-color: $bg-colour
   font-family: Lato
 
-article
-  center(960px)
+a
+  color: $es-red
+  text-decoration: none;
+  &:hover
+    color: darken($es-red, 20%);
 
-section
-  center(960px)
+ul, li
+  list-style: none;
+  padding: 0
+  margin: 0

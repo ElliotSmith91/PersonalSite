@@ -15,7 +15,7 @@ function getTask(task) {
 }
 
 gulp.task('scripts', getTask('scripts'));
-gulp.task('styles', ['copy'], getTask('styles'));
+gulp.task('styles', getTask('styles'));
 gulp.task('clean', getTask('clean'));
 gulp.task('copy', ['clean'], getTask('copy'));
 gulp.task('watch', ['styles', 'scripts', 'copy'], getTask('watch'));
