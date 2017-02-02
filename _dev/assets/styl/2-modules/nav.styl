@@ -1,0 +1,17 @@
+@require "../1-base/vars.styl"
+.nav
+  column(3/4)
+  text-align: right
+  float: right
+  &--menu-item
+    display: inline
+    padding: 1em
+    > a
+      color: $es-grey
+      &:hover
+        color: $es-red
+  &--menu
+    margin-top: 75px
+    padding-right: 25px
+    +below($tablet-bp)
+      display: none
