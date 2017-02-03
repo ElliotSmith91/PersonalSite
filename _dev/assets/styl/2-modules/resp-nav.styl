@@ -1,1 +1,34 @@
 @require "../1-base/vars.styl"
+
+input[type=checkbox]
+  position: absolute
+  top: -9999px
+  left: -9999px
+
+.resp--nav
+  display: none
+  float: right
+  margin-top: 20px
+  margin-right: 2.5em
+  +below($tablet-bp)
+    display: inline-block
+
+  &-button
+    cursor: pointer
+    line-height: 40px
+    color: $es-red
+    border-radius: 3px
+    background: white
+    box-shadow: 2px 1px 8px $es-grey
+    width: 75px
+    height: 40px
+    float: right
+    text-align: center
+    position: relative
+    transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out
+    &:hover
+      color: $es-grey
+    &:active
+      top: 2px
+      left: 2px
+      box-shadow: 1px 1px 3px $es-red

@@ -17,8 +17,22 @@
 
   <header class="header" role="banner">
     <div class="header--wrap">
-        <a href="<?= url() ?>" rel="home"><span><img class="header--logo" src="/assets/images/logo.svg" alt="logo"></img></span></a>
-
+      <a href="<?= url() ?>" rel="home">
+        <span>
+          <img class="header--logo" src="/assets/images/logo.svg" alt="logo">
+          </img>
+        </span>
+      </a>
       <?php snippet('menu') ?>
+      <!-- responsive nav checkbox hack -->
+      <div class="resp--nav">
+        <input type="checkbox" name="resp--nav-input" value="">
+        <label class="resp--nav-button" for="menu" onclick>Menu</label>
+      </div>
+
+      <!-- <div class="resp--nav">
+        <a href="#" class="resp--nav-button">Menu</a>
+      </div> -->
+
     </div>
   </header>

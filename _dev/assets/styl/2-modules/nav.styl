@@ -3,15 +3,18 @@
   column(3/4)
   text-align: right
   float: right
+  margin-top: 75px
+  +below($tablet-bp)
+    margin-top: 0px
   &--menu-item
-    display: inline
+    display: inline-block
+  &--menu-item-link
     padding: 1em
-    > a
-      color: $es-grey
-      &:hover
-        color: $es-red
+    color: $es-grey
+    &:hover
+      color: $es-red
   &--menu
-    margin-top: 75px
-    padding-right: 25px
+    display: inline-block
     +below($tablet-bp)
       display: none
+      width: 80%
