@@ -1,19 +1,29 @@
 @require "../1-base/vars.styl"
 .header
   font-weight: 700
-  height: 155px
+  height: 125px
   background: white
   padding: 20px 0px 0px 30px
+  position: relative
   +below($tablet-bp)
     height: 80px
 
 
   &--wrap
-    height: 100px
+    will-change: top
+    position: relative
+    height: 145px
     width: 100%
+    top 0px
+    transition-duration: 0.3s
+    transition-timing-function: ease-in-out;
+    transition-property: top, opacity
+    +below($tablet-bp)
+      height: 100px
   &--logo
     height: 100px
     max-width: 100px
     column(1/4)
+    display: inline-block;
     +below($tablet-bp)
       height: 60px

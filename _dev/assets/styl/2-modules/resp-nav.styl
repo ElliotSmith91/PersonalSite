@@ -1,30 +1,40 @@
 @require "../1-base/vars.styl"
 
+//needed to ensure no gaps between nav-bar and content
+.main
+  will-change: margin-top
+  transition: margin-top 0.3s ease-in-out
+  margin-top: 0px
+  position: relative;
+  +below($tablet-bp)
+    top: -200px
+
 input[type=checkbox]
   position: absolute
   top: -9999px
   left: -9999px
+  &:checked ~ .header--wrap
+    top: $resp--menu-height
+  &:checked ~ .main
+    margin-top: $resp--menu-height * 2
 
-.resp--nav
-  display: none
-  float: right
-  margin-top: 20px
-  margin-right: 2.5em
-  +below($tablet-bp)
-    display: inline-block
-
-  &-button
+.resp
+  &--nav-button
+    display: none
+    float: right
+    margin-top: 40px
+    margin-right: 2.5em
     cursor: pointer
     line-height: 40px
     color: $es-red
     border-radius: 3px
     background: white
-    box-shadow: 2px 1px 8px $es-grey
+    box-shadow: 2px 1px 2px $es-grey
     width: 75px
     height: 40px
     float: right
     text-align: center
-    position: relative
+    position: relative;
     transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out
     &:hover
       color: $es-grey
@@ -32,3 +42,6 @@ input[type=checkbox]
       top: 2px
       left: 2px
       box-shadow: 1px 1px 3px $es-red
+    +below($tablet-bp)
+      display: inline-block
+      z-index: 1

@@ -14,25 +14,26 @@
 
 </head>
 <body>
+  <input type="checkbox" id="menu">
+  <div class="header--wrap">
+    <label class="resp--nav-button" for="menu">Menu</label>
+    <header class="header" role="banner">
+    <!-- responsive nav checkbox hack -->
 
-  <header class="header" role="banner">
-    <div class="header--wrap">
-      <a href="<?= url() ?>" rel="home">
-        <span>
+
+      <a href="<?= url() ?>" rel="home" class="header--logo-link">
           <img class="header--logo" src="/assets/images/logo.svg" alt="logo">
           </img>
-        </span>
       </a>
       <?php snippet('menu') ?>
-      <!-- responsive nav checkbox hack -->
-      <div class="resp--nav">
-        <input type="checkbox" name="resp--nav-input" value="">
-        <label class="resp--nav-button" for="menu" onclick>Menu</label>
-      </div>
+
+
+
 
       <!-- <div class="resp--nav">
         <a href="#" class="resp--nav-button">Menu</a>
       </div> -->
 
-    </div>
-  </header>
+
+    </header>
+  </div>

@@ -3,15 +3,23 @@ edit()
 
 html
   box-sizing: border-box;
+  +below($tablet-bp)
+    overflow-x: hidden
 
 body
   background-color: $bg-colour
   font-family: Lato
 
+label
+  font-weight: 700
+
+main
+  center(960px)
 
 a
   color: $es-red
   text-decoration: none;
+  font-weight: 700
   &:hover
     color: darken($es-red, 50%);
 

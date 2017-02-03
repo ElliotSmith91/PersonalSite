@@ -5,16 +5,32 @@
   float: right
   margin-top: 75px
   +below($tablet-bp)
-    margin-top: 0px
-  &--menu-item
-    display: inline-block
-  &--menu-item-link
-    padding: 1em
-    color: $es-grey
-    &:hover
-      color: $es-red
+    background-color: $es-red
+    margin-top: 20px
+    position: relative
+    top: - $resp--menu-height - 100px
+    width: 100vw
+    height:$resp--menu-height
+    text-align: center;
   &--menu
     display: inline-block
     +below($tablet-bp)
-      display: none
-      width: 80%
+      width: 100%
+      align()
+  &--menu-item
+    display: inline-block
+    padding-right: 1.5em
+    +below($tablet-bp)
+      padding: 0
+      text-align: center
+      display: block
+  &--menu-item-link
+    color: $es-grey
+    &:hover
+      color: $es-red
+    +below($tablet-bp)
+      padding: 1em
+      display: block;
+      color: white
+      &:hover
+        color: $es-grey
