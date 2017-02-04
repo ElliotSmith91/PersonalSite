@@ -31,6 +31,7 @@ _site/site/templates
 logs
 *.log
 npm-debug.log*
+node_modules/**
 
 # Runtime data
 pids

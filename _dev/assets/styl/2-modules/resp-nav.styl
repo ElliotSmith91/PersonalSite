@@ -2,28 +2,28 @@
 
 //needed to ensure no gaps between nav-bar and content
 .main
-  will-change: margin-top
-  transition: margin-top 0.3s ease-in-out
-  margin-top: 0px
   position: relative;
   +below($tablet-bp)
-    top: -200px
+    top: - $resp--menu-height
+    margin-top: $resp--menu-height
 
 input[type=checkbox]
   position: absolute
   top: -9999px
   left: -9999px
-  &:checked ~ .header--wrap
-    top: $resp--menu-height
+  &:checked ~ header
+    margin-top: $resp--menu-height
   &:checked ~ .main
-    margin-top: $resp--menu-height * 2
-
+    margin-top: $resp--menu-height
+  &:checked ~ .header--wrap
+    margin-top: $resp--menu-height
 .resp
   &--nav-button
+
     display: none
     float: right
     margin-top: 40px
-    margin-right: 2.5em
+    margin-right: 3em
     cursor: pointer
     line-height: 40px
     color: $es-red
