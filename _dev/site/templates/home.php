@@ -2,26 +2,16 @@
 
   <main class="main" role="main">
 
-    <header class="wrap">
-      <h1><?= $page->title()->html() ?></h1>
-      <div class="intro text">
-        <?= $page->intro()->kirbytext() ?>
+    <section class="intro">
+      <div class="intro--img-container"  >
       </div>
-      <hr />
-    </header>
+      <div class="intro--type-wrap">
+        <h1 class="intro--type">
+          Hi, my name is Elliot - I like to take photos, design websites and writing about technology.
+        </h1>
+        <h1 class="intro--type">You should keep scrolling down to take a look at all the stuff I get up to. Don’t be afraid to contact me if you have any photographic or web design work!</h1>
 
-    <div class="text wrap">
-      <?= $page->text()->kirbytext() ?>
-    </div>
-
-    <section class="projects-section">
-
-      <div class="wrap wide">
-        <h2>Latest Projects</h2>
-        <?php snippet('showcase', ['limit' => 3]) ?>
-        <p class="projects-section-more"><a href="<?= page('photography')->url() ?>" class="btn">show all projects &hellip;</a></p>
       </div>
-
     </section>
 
   </main>

@@ -1,0 +1,27 @@
+@require "../1-base/vars.styl"
+.intro
+  height: 100vh
+  background-image: url("/assets/images/MeLine.svg")
+  background-size: 100% 130%
+  background-repeat: no-repeat
+  background-position: -100px bottom
+  +below($tablet-bp)
+    background-size: 120% 60%
+    background-repeat: no-repeat
+    background-position: -50px top
+  +below($mobile-bp)
+    background-size: 100% 90%
+    background-repeat: no-repeat
+    background-position: center -200%
+  &--img-container
+    column(3/8)
+    height: 60%
+  // &--img
+  //   min-width: 100%
+  //   min-height: 100%
+  &--type-wrap
+    column(5/8)
+  &--type
+    font-weight: 300;
+    +below($mobile-bp)
+      font-size: 16pt
