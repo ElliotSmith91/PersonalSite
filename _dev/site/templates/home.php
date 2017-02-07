@@ -4,6 +4,7 @@
 
     <article class="intro">
       <div class="intro--img-padding"  >
+        <img class="intro--img" src="/assets/images/MeLineOpt.svg" alt="">
       </div>
       <div class="intro--type-wrap">
         <h2 class="intro--type">
