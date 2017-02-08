@@ -11,7 +11,8 @@ module.exports = function (gulp, plugins, conf) {
     },
   });
   gulp.watch(conf.paths.assets.styles.src, ['styles']);
-  gulp.watch(conf.paths.site.src).on('change', function(){
+  gulp.watch(conf.paths.assets.scripts.src, ['scripts']);
+  gulp.watch([conf.paths.site.src]).on('change', function(){
     browserSync.reload();
   });
 };

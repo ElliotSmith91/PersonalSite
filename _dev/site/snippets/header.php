@@ -16,7 +16,7 @@
 <body>
   <!-- responsive nav checkbox hack http://css-tricks.com/responsive-menu-concepts -->
   <input type="checkbox" id="menu">
-  <div class="header--wrap">
+  <div class="header--wrap" id="header--wrap">
     <label class="resp--nav-button" for="menu">Menu</label>
     <header class="header" role="banner">
       <a href="<?= url() ?>" rel="home" class="header--logo-link">

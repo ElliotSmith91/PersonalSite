@@ -1,37 +1,12 @@
 @require "../1-base/vars.styl"
 .intro
-  height: 100vh
-  // background-image: url("/assets/images/MeLineOpt.svg")
-  // background-size: 100% 130%
-  // background-repeat: no-repeat
-  // background-position: -100px bottom
-  // +below($tablet-bp)
-  //   background-size: 120% 60%
-  //   background-repeat: no-repeat
-  //   background-position: -100px top
-  // +below($mobile-bp)
-  //   background-size: 100% 100%
-  //   background-repeat: no-repeat
-  //   background-position: -50px top
-  &--img-padding
-    column(3/8)
-    height: 80vh
-    overflow: hidden;
-    +below($mobile-bp)
-      overflow: visible;
   &--img
     height: 100%
-    width: 190%
+    width: 200%
     object-fit: cover;
     +below($tablet-bp)
       width: 300%
       height: 100%
     +below($mobile-bp)
       width: 300%
-      height: 70%
-
-  &--type-wrap
-    column(5/8)
-    // margin-top: 30vh
-  &--type
-    font-weight: 300;
+      height: 150px

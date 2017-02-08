@@ -26,7 +26,7 @@
         "dest": "./_site/assets/css/"
       },
       "scripts": {
-        "src": "./_dev/assets/scripts/*.js",
+        "src": "./_dev/assets/js/*.js",
         "dest": "./_site/assets/js/"
       }
     },
