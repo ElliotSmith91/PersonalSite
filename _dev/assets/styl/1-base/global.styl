@@ -6,10 +6,21 @@ html
 
 body
   background-color: white
-//   font-family: Lato
-//
-// label
-//   font-weight: 700
+
+* + *
+  margin-top: 1.5em
+
+hr
+  clear: both;
+  width: (100vw / 1.618)%
+  // //hr style 1
+  // border: 0;
+  // height: 1px;
+  // background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $es-grey, rgba(0, 0, 0, 0));
+  // hr style 2
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, $es-grey, $es-red, $es-grey);
 
 a
   color: $es-red
@@ -22,3 +33,6 @@ ul, li
   list-style: none;
   padding: 0
   margin: 0
+
+article
+  overflow: hidden;

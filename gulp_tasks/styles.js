@@ -16,8 +16,9 @@ module.exports = function (gulp, plugins, conf) {
     gulp.src(
       conf.paths.assets.styles.src
     )
+    .pipe(plugins.plumber())
     .pipe(plugins.stylus({
-      onError: browserSync.notify,
+      onError: plugins.util.log,
       "use": [koutoSwiss(), rupture()]
     }))
     .pipe(plugins.autoprefixer(conf.autoPrefixerList, {cascade: true}))
