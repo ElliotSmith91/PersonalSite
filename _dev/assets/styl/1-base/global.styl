@@ -1,14 +1,19 @@
 @require "vars"
 
+
 html
+  box-sizing: border-box;
   +below($tablet-bp)
     overflow-x: hidden
+
+*, *:before, *:after
+  box-sizing: inherit;
 
 body
   background-color: white
 
 * + *
-  margin-top: 1.5em
+  margin-top: 1.75em
 
 hr
   clear: both;
@@ -36,5 +41,5 @@ ul, li
 h2
   margin-left: 1em
   margin-right: 1em
-article
+article, section
   overflow: hidden;

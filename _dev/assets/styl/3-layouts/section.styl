@@ -15,27 +15,20 @@
   //   background-position: -50px top
   &--center
     center(1600px)
+
   &--left-col
     column(3/8)
-    // height: 80vh
+    padding 0 0.5em
     overflow: hidden;
+    text-align: center
     +below($mobile-bp)
       stack()
     &-shift
       move(5/8)
-  // &--img
-  //   height: 100%
-  //   max-width: 100%
-  //   object-fit: cover;
-  //   +below($tablet-bp)
-  //     width: 300%
-  //     height: 100%
-  //   +below($mobile-bp)
-  //     width: 300%
-  //     height: 70%
 
   &--right-col
     column(5/8)
+    padding 0 0.5em
     position: relative;
     overflow: hidden;
     // margin-top: 30vh
@@ -43,6 +36,18 @@
       move(-3/8)
     +below($mobile-bp)
       stack()
+
   &--title
     span(1/1)
     text-align: center;
+  &--cta
+    display: inline-block;
+    border: 1px solid tint($es-grey, 50%)
+    background-color: white
+    width: 70%
+    color: $es-grey
+    padding: 1.75em
+    transition: all 0.3s ease-in-out
+    &:hover
+      background-color: $es-red
+      color: white

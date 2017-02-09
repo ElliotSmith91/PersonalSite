@@ -8,10 +8,11 @@
   &--img
     position: relative;
     height: auto
-    max-width: 95%
+    max-width: 100%
     object-fit: cover;
-    // border: 0.3em solid ivory
-    box-shadow: 2px 4px 10px $es-grey
+    border: 0.3em solid tint($es-grey, 60%)
+    margin-bottom: -6px
+    // box-shadow: 2px 4px 10px $es-grey
   &--flying-img-container
     position: absolute;
     width: 15%
@@ -83,3 +84,9 @@
   top: 7%
   right: 55%
   transition: all 1.3s ease-in-out
+
+.flying10
+  transform: rotateZ(3deg);
+  top: 40%
+  right: 50%
+  transition: all 1.5s ease-in-out
