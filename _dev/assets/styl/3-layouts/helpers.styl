@@ -1,0 +1,31 @@
+@require "../1-base/vars.styl"
+.l--text-center
+  text-align: center
+  // +below($tablet-bp)
+  //   text-align: left
+
+.l--text-right
+  text-align: right
+  +below($mobile-bp)
+    text-align: left
+
+.l--text-left
+  text-align: left
+
+.l--no-left-pad
+  padding-left: 0rem
+
+.l--full-w-img
+  height: auto
+  max-width: 100%
+  // object-fit: cover;
+
+.drop-cap
+  color: $es-red
+  float: left
+  font-family: 'Playfair Display', cursive
+  font-size: 6.1em
+  font-weight:400
+  line-height: .7
+  margin: 0
+  padding: 0 .1em 0 0

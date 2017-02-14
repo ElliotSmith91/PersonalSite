@@ -2,13 +2,11 @@
 .intro
   &--img
     height: 100%
-    width: 200%
-    margin-top: 1.75em
+    min-width: 200%
     object-fit: cover;
-    transform-origin: left top
     +below($tablet-bp)
-      width: 300%
-      height: 100%
+      min-width: 300%
+      min-height: 100%
     +below($mobile-bp)
       width: 300%
       height: 150px

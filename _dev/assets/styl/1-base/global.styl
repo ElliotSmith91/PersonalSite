@@ -10,22 +10,18 @@ html
   box-sizing: inherit;
 
 body
-  background-color: white
+  background-color: $bg-colour
 
 * + *
-  margin-top: 1.75em
+  margin-top: $default-margin
 
 hr
+  background-image: linear-gradient(to right, rgba($es-grey, 0.2), rgba($es-grey, 0.9), rgba($es-grey, 0.2));
   clear: both;
   width: (100vw / 1.618)%
-  // //hr style 1
-  // border: 0;
-  // height: 1px;
-  // background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $es-grey, rgba(0, 0, 0, 0));
-  // hr style 2
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, rgba($es-grey, 0.2), rgba($es-grey, 0.9), rgba($es-grey, 0.2));
+
 
 a
   color: $es-red
@@ -41,5 +37,6 @@ ul, li
 h2
   margin-left: 1em
   margin-right: 1em
+
 article, section
   overflow: hidden;

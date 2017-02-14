@@ -10,14 +10,14 @@
 
   <?= css('assets/css/app.css') ?>
 
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Playfair+Display" rel="stylesheet">
 
 </head>
 <body>
   <!-- responsive nav checkbox hack http://css-tricks.com/responsive-menu-concepts -->
   <input type="checkbox" id="menu">
   <div class="header--wrap" id="header--wrap">
-    <label class="resp--nav-button" for="menu">Menu</label>
+    <label class="shadow--button" for="menu">Menu</label>
     <header class="header" role="banner">
       <a href="<?= url() ?>" rel="home" class="header--logo-link">
         <img class="header--logo" src="/assets/images/logo.svg" alt="logo">
