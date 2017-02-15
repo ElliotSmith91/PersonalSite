@@ -15,7 +15,7 @@
       </div>
     </section>
     <hr/>
-    <section class="section--center">
+    <section class="section--center" id="photography">
       <h1 class="section--title">Photography</h1>
       <div class="section--left-col l--text-center">
         <p class="l--text-left">
@@ -68,27 +68,31 @@
 
     <section class="">
       <h1 class="section--title">Blog</h1>
-      <div class="section--left-col-shift">
-        <div class="blog--post">
+      <div class="section--left-col l--no-left-pad">
+        <a class="blog--post">
+          <div class="blog--data">
+            <div class="blog--post-name">Post Title</div>
+            <div class="blog--post-date">Aug 26. 2016
+            </div>
+          </div>
+        </a>
+        <a class="blog--post">
 
-        </div>
-        <div class="blog--post">
+        </a>
+        <a class="blog--post">
 
-        </div>
-        <div class="blog--post">
+        </a>
+        <a class="blog--post">
 
-        </div>
-        <div class="blog--post">
+        </a>
+        <a class="blog--post">
 
-        </div>
-        <div class="blog--post">
+        </a>
+        <a class="blog--post">
 
-        </div>
-        <div class="blog--post">
-
-        </div>
+        </a>
       </div>
-      <div class="section--right-col-shift l--text-center">
+      <div class="section--right-col l--text-center">
         <p class="l--text-left"><span class="drop-cap">M</span>ore recently I have taken to writing blog posts about things I find interesting. From technology and design to food and drink, as well as anything in between. I also include thoughts and tutorials on web design and development.
         </p>
         <p class="l--text-left">Check out some of my most recent posts on the left or click the button to check out an index containing all of them.</p>
@@ -102,7 +106,7 @@
       <h1 class="section--title">Design</h1>
       <div class="section--left-col">
         <p class="l--text-left"><span class="drop-cap">R</span>ight now I am spending a lot of my time desinging beautiful things like websites to be displayed and viewed on the world wide web. I love to focus on making lightweight, responsive design which keeps users and customers engaged - whilst allowing the owners of the website to easily update the content in almost every way thinkable.</p>
-        <p class="l--text-left">You can have a look at some of my previous design work to the right!</p>
+        <p class="l--text-left">Have a look at some of my previous design work!</p>
       </div>
       <div class="section--right-col">
         <div class="design--site-wrap">
@@ -115,8 +119,13 @@
 
     <section class="">
       <h1 class="section--title">Contact</h1>
-      <div class="section--left-col-shift">
-
+      <div class="section--left-col-shift l--text-center">
+        <form class="contact--form" action="index.html" method="post">
+          <input type="text" name="name" placeholder="Name">
+          <input type="text" name="email" placeholder="E-mail address">
+          <textarea name="message" rows="8" cols="80" placeholder="Message"></textarea>
+          <input type="submit" name="" value="Send">
+        </form>
       </div>
       <div class="section--right-col-shift">
         <p class="l--text-left"><span class="drop-cap">F</span>eel free to contact me about any possible work using the form! I will respond as soon as I can.</p>

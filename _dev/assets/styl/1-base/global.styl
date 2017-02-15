@@ -27,6 +27,8 @@ a
   color: $es-red
   text-decoration: none;
   font-weight: 700
+  &:focus
+    outline: -webkit-focus-ring-color $es-grey 5px
   &:hover
     color: darken($es-red, 50%);
 
@@ -40,3 +42,26 @@ h2
 
 article, section
   overflow: hidden;
+
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+  background: tint($es-grey, 75%)
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $es-red
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: tint($es-red, 60%)
+}
+
+::-webkit-scrollbar-track:window-inactive
+  background: white
