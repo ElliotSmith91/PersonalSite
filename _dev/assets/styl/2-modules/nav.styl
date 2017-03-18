@@ -14,12 +14,13 @@
     text-align: center;
   &--menu
     display: inline-block
+    margin-right: 2em
     +below($tablet-bp)
       width: 100%
       align()
   &--menu-item
     display: inline-block
-    padding-right: 1.5em
+    padding: 0 .5em
     +below($tablet-bp)
       padding: 0
       text-align: center
@@ -34,3 +35,8 @@
       color: white
       &:hover
         color: $es-grey
+
+.is-active
+  border-bottom: 2px solid $es-red
+  a
+    color: black

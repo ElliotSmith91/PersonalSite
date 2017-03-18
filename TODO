@@ -7,3 +7,4 @@ bug on first running gulp no site shown
 clean out all _site/site other than config accounts cache etc.
 When running gulp, changing file won't copy new images to assets etc.
 Parallex effects for new sections...
+Add border-bottom for active link - check site for making active link

@@ -1,4 +1,40 @@
+@require "../1-base/vars.styl"
 .design--site-wrap
   // background-color: pink
-  width: 100%
-  height: 100%
+  position: relative
+  display: block
+  transform: scale(0.2);
+  transition: all 0.4s ease-in-out
+  margin: auto
+  &-img
+   display: block
+  &:hover
+    .design--site-wrap-caption
+      // position: relative
+      transform: translateX(0%);
+      opacity: 1
+      color: white
+
+  &-caption
+    display: block
+    text-align: center
+    position: absolute
+    top: 0px
+    // bottom: -100%
+    background: tint($dawn-yellow, 30%)
+    width: 100%
+    height: 100%
+    margin: 0 0
+    padding-top: 15%
+    // background-image: linear-gradient(-135deg, #fdfcfb 0%, #F6D22F 100%);
+    color: $es-grey
+    opacity: 0
+    transform: translateX(100%);
+    transition: all 0.3s ease-in-out
+    // box-sizing: content-box;
+    h5
+      color: lighten($es-grey, 90%)
+      // text-shadow: 2px 1px 1px $es-grey
+
+.zoom
+  transform: scale(1.0);

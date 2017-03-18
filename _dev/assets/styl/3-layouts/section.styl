@@ -5,30 +5,41 @@
 
   &--left-col
     column(3/8)
-    padding: 0 0.5em
+    padding-left: $default-margin
+    padding-right: 0
     overflow: hidden;
-    &-shift
-      padding: 0 0.5em
-      column(5/8)
-      +below($mobile-bp)
-        stack()
-    +below($mobile-bp)
+    position: relative
+    +below($tablet-bp)
       stack()
+      padding: 0 $default-margin
+    &-shift
+      padding-left: $default-margin
+      padding-right: 0
+      column(5/8)
+      +below($tablet-bp)
+        stack()
+        padding: 0 $default-margin
 
   &--right-col
     column(5/8)
-    padding: 0 0.5em
+    padding-left: 0.5em
+    padding-right: $default-margin
     position: relative;
     overflow: hidden;
     // margin-top: 30vh
-    &-shift
-      padding: 0 0.5em
-      column(3/8)
-      +below($mobile-bp)
-        stack()
-    +below($mobile-bp)
+    +below($tablet-bp)
       stack()
+      padding: 0 $default-margin
+    &-shift
+      padding-left: 0.5em
+      padding-right: $default-margin
+      column(3/8)
+      +below($tablet-bp)
+        stack()
+        padding: 0 $default-margin
 
   &--title
     span(1/1)
     text-align: center;
+    +below($tablet-bp)
+      float:none;

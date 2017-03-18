@@ -1,87 +1,96 @@
 @require "../1-base/vars.styl"
 .photography
-  // &--img-container
-  //   position: relative;
-  //   height: auto
-  //   max-width: 1%
-  //   object-fit: cover;
   &--img
-    border: 0.3em solid tint($es-grey, 60%)
+    &-container
+      position: relative
+      overflow: hidden
 
   &--flying-img-container
     position: absolute;
     width: 15%
-    right: -100%
+    transform: translateX(1000%);
     margin-top: 0
 
   &--flying-img
     position: relative;
     width: 100%
-    border: 0.1em solid ivory
+    // border: 0.1em solid ivory
     box-shadow: 2px 2px 8px black
 
 .flying0
-  transform: rotateZ(30deg);
-  top: 60%
-  right: 20%
+  transform-origin: left
+  transform: rotateZ(30deg) translate(300%, -478%)
+  // transform: translateY(-90%);
+  // top: 60%
+  // right: 20%
   transition: all 1s ease-in-out
 
 .flying1
-  transform: rotateZ(-20deg);
-  top: 10%
-  right: 70%
+  transform-origin: left
+  transform: rotateZ(-20deg) translate(180%, -175%);
+  // top: 10%
+  // right: 70%
   transition: all 1.5s ease-in-out
 
 .flying2
-  transform: rotateZ(8deg);
-  top: 20%
-  right: 40%
+  transform-origin: left
+  transform: rotateZ(8deg) translate(240%, -250%);
+  // top: 20%
+  // right: 40%
   transition: all 2s ease-in-out
 
 .flying3
-  transform: rotateZ(-24deg);
-  top: 40%
-  right: 30%
+  transform-origin: left
+  transform: rotateZ(-24deg) translate(450%, -70%);
+  // top: 40%
+  // right: 30%
   transition: all 1.7s ease-in-out
 
 .flying4
-  transform: rotateZ(-40deg);
-  top: 50%
-  right: 80%
+  transform-origin: left
+  transform: rotateZ(-40deg) translate(140%, -70%);
+  // top: 50%
+  // right: 80%
   transition: all 1.4s ease-in-out
 
 .flying5
-  transform: rotateZ(-23deg);
-  top: 8%
-  right: 90%
+  transform-origin: left
+  transform: rotateZ(-23deg) translate(110%, -400%);
+  // top: 8%
+  // right: 90%
   transition: all 2.1s ease-in-out
 
 .flying6
-  transform: rotateZ(-10deg);
-  top: 50%
-  right: 68%
+  transform-origin: left
+  transform: rotateZ(-10deg) translate(180%, -260%);
+  // top: 50%
+  // right: 68%
   transition: all 1.5s ease-in-out
 
 .flying7
-  transform: rotateZ(-13deg);
-  top: 60%
-  right: 43%
+  transform-origin: left
+  transform: rotateZ(-13deg) translate(340%, -100%);
+  // top: 60%
+  // right: 43%
   transition: all 1.7s ease-in-out
 
 .flying8
-  transform: rotateZ(-15deg);
-  top: 60%
-  right: 54%
+  transform-origin: left
+  transform: rotateZ(-15deg) translate(220%, -50%);
+  // top: 60%
+  // right: 54%
   transition: all 2s ease-in-out
 
 .flying9
-  transform: rotateZ(27deg);
-  top: 7%
-  right: 55%
+  transform-origin: left
+  transform: rotateZ(27deg) translate(0%, -310%);
+  // top: 7%
+  // right: 55%
   transition: all 1.3s ease-in-out
 
 .flying10
-  transform: rotateZ(3deg);
-  top: 40%
-  right: 50%
+  transform-origin: left
+  transform: rotateZ(3deg) translate(225%, -325%);
+  // top: 40%
+  // right: 50%
   transition: all 1.5s ease-in-out

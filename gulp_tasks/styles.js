@@ -1,5 +1,6 @@
 const koutoSwiss = require( "kouto-swiss" );
 const rupture = require("rupture");
+const nib = require('nib');
 const browserSync = require('browser-sync');
 
 module.exports = function (gulp, plugins, conf) {
@@ -19,7 +20,7 @@ module.exports = function (gulp, plugins, conf) {
     .pipe(plugins.plumber())
     .pipe(plugins.stylus({
       onError: plugins.util.log,
-      "use": [koutoSwiss(), rupture()]
+      "use": [nib(), rupture()]
     }))
     .pipe(plugins.autoprefixer(conf.autoPrefixerList, {cascade: true}))
 //    .pipe(plugins.concatCss('app.css'))

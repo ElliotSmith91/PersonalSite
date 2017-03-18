@@ -2,11 +2,11 @@
 
   <main class="main" role="main">
 
-    <section class="section" id="intro">
+    <section id="intro">
       <div class="section--left-col l--no-left-pad"  >
         <img class="intro--img" src="/assets/images/MeLineOpt.svg" id="intro-img"alt="">
       </div>
-      <div class="section--right-col">
+      <div class="section--right-col l--no-pad l--no-top-margin">
         <h2 class="section--type">
           Hi, my name is Elliot - I like to take photos, design websites and writing about different things.
         </h2>
@@ -27,73 +27,82 @@
         <a href="#photographyLink" class="section--cta-button">The Gallery</a>
       </div>
       <div class="section--right-col">
-        <img class="photography--img l--full-w-img" src="/assets/images/desk.jpg" alt="">
-        <div class="photography--flying-img-container">
-          <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print4.jpg" alt="">
+        <div class="photography--img-container">
+          <img class="photography--img l--full-w-img img-border" src="/assets/images/desk.jpg" alt="">
+          <div class="photography--flying-img-container">
+            <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print4.jpg" alt="">
+          </div>
+          <div class="photography--flying-img-container">
+            <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print9.jpg" alt="">
+          </div>
+          <div class="photography--flying-img-container">
+            <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print36.jpg" alt="">
+          </div>
+          <div class="photography--flying-img-container">
+            <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print149.jpg" alt="">
+          </div>
+          <div class="photography--flying-img-container">
+            <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print157.jpg" alt="">
+          </div>
+          <div class="photography--flying-img-container">
+            <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print158.jpg" alt="">
+          </div>
+          <div class="photography--flying-img-container">
+            <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print175.jpg" alt="">
+          </div>
+          <div class="photography--flying-img-container">
+            <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print177.jpg" alt="">
+          </div>
+          <div class="photography--flying-img-container">
+            <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print191.jpg" alt="">
+          </div>
+          <div class="photography--flying-img-container">
+            <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print194.jpg" alt="">
+          </div>
+          <div class="photography--flying-img-container">
+            <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/me.jpg" alt="">
+          </div>
         </div>
-        <div class="photography--flying-img-container">
-          <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print9.jpg" alt="">
-        </div>
-        <div class="photography--flying-img-container">
-          <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print36.jpg" alt="">
-        </div>
-        <div class="photography--flying-img-container">
-          <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print149.jpg" alt="">
-        </div>
-        <div class="photography--flying-img-container">
-          <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print157.jpg" alt="">
-        </div>
-        <div class="photography--flying-img-container">
-          <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print158.jpg" alt="">
-        </div>
-        <div class="photography--flying-img-container">
-          <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print175.jpg" alt="">
-        </div>
-        <div class="photography--flying-img-container">
-          <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print177.jpg" alt="">
-        </div>
-        <div class="photography--flying-img-container">
-          <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print191.jpg" alt="">
-        </div>
-        <div class="photography--flying-img-container">
-          <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print194.jpg" alt="">
-        </div>
-        <div class="photography--flying-img-container">
-          <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/me.jpg" alt="">
-        </div>
+
       </div>
 
     </section>
     <hr/>
 
-    <section class="">
+    <section class="section--center" id="blog">
       <h1 class="section--title">Blog</h1>
-      <div class="section--left-col l--no-left-pad">
-        <a class="blog--post">
+      <div class="section--left-col">
+        <a class="blog--post"  style="background-image: url(http://fillmurray.com/350/500)">
           <div class="blog--data">
             <div class="blog--post-name">Post Title</div>
             <div class="blog--post-date">Aug 26. 2016
             </div>
           </div>
         </a>
-        <a class="blog--post">
-
+        <a class="blog--post" style="background-image: url(http://fillmurray.com/350/500)">
+          <div class="blog--data" >
+            <div class="blog--post-name">Post Title</div>
+            <div class="blog--post-date">Aug 26. 2016
+            </div>
+          </div>
         </a>
-        <a class="blog--post">
-
+        <a class="blog--post" style="background-image: url(http://fillmurray.com/350/500)">
+          <div class="blog--data">
+            <div class="blog--post-name">Post Title</div>
+            <div class="blog--post-date">Aug 26. 2016
+            </div>
+          </div>
         </a>
-        <a class="blog--post">
-
-        </a>
-        <a class="blog--post">
-
-        </a>
-        <a class="blog--post">
-
+        <a class="blog--post" style="background-image: url(http://fillmurray.com/350/500)">
+          <div class="blog--data">
+            <div class="blog--post-name">Post Title</div>
+            <div class="blog--post-date">Aug 26. 2016
+            </div>
+          </div>
         </a>
       </div>
       <div class="section--right-col l--text-center">
-        <p class="l--text-left"><span class="drop-cap">M</span>ore recently I have taken to writing blog posts about things I find interesting. From technology and design to food and drink, as well as anything in between. I also include thoughts and tutorials on web design and development.
+        <p class="l--text-left"><span class="drop-cap">M</span>ore recently I have taken to writing blog posts about things I find interesting. From technology and design to food and drink, as well as anything in between. Hot topics at the moment include DIY as I am going through a bit of a rennovation of a house as well as many things on web design and development as I learn them. I also include thoughts and tutorials on web design and development as I learn more.
         </p>
         <p class="l--text-left">Check out some of my most recent posts on the left or click the button to check out an index containing all of them.</p>
         <a href="#blogsection" class="section--cta-button">Blog Index</a>
@@ -102,22 +111,25 @@
 
     <hr/>
 
-    <section class="section--center span-right">
+    <section class="section--center" id="design">
       <h1 class="section--title">Design</h1>
       <div class="section--left-col">
         <p class="l--text-left"><span class="drop-cap">R</span>ight now I am spending a lot of my time desinging beautiful things like websites to be displayed and viewed on the world wide web. I love to focus on making lightweight, responsive design which keeps users and customers engaged - whilst allowing the owners of the website to easily update the content in almost every way thinkable.</p>
-        <p class="l--text-left">Have a look at some of my previous design work!</p>
+        <p class="l--text-left">Have a look at some of my previous design work! Hovering and clicking on the image of a website will take you to it.</p>
       </div>
-      <div class="section--right-col">
-        <div class="design--site-wrap">
-          <img class="l--full-w-img" src="/assets/images/designbydawnscreenshot.jpg" alt="">
+      <div class="section--right-col l--text-center">
+        <div class="design--site-wrap" id="design-img-wrap">
+          <img class="l--full-w-img img-border design--site-wrap-img" src="/assets/images/designbydawnscreenshot.jpg" alt="">
+          <div class="design--site-wrap-caption">
+            <a href="https://www.signpaintingbydawn.com" ><h5>Sign Painting by Dawn</h5></a>
+          </div>
         </div>
       </div>
     </section>
 
     <hr/>
 
-    <section class="">
+    <section class="section--center">
       <h1 class="section--title">Contact</h1>
       <div class="section--left-col-shift l--text-center">
         <form class="contact--form" action="index.html" method="post">
