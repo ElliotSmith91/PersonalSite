@@ -6,3 +6,6 @@ password: >
 email: admin@admin.co.uk
 language: en
 role: admin
+history:
+  - home
+  - blog/I-heart-Kirby

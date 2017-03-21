@@ -5,9 +5,11 @@
 ## Kirby 2 | http://getkirby.com
 
 # Exclude account information
-site/accounts/*
+_site/site/accounts/*
 !site/accounts/index.html
 assets/avatars/*
+_dev/site/accounts/*
+!site/accounts/index.html
 !assets/avatars/.gitkeep
 
 # Exclude thumbnails

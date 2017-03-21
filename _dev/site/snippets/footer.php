@@ -1,6 +1,5 @@
   <footer class="footer cf" role="contentinfo">
-    <div class="wrap wide">
-
+    <div class="wrap section--center">
       <p class="footer-copyright"><?php
         // Parse Kirbytext to support dynamic year,
         // but remove all HTML like paragraph tags:

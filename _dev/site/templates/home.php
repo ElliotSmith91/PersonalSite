@@ -8,22 +8,19 @@
       </div>
       <div class="section--right-col l--no-pad l--no-top-margin">
         <h2 class="section--type">
-          Hi, my name is Elliot - I like to take photos, design websites and writing about different things.
+          <?= $page->intro()->kirbytext() ?>
         </h2>
-        <h2 class="section--type">You should keep scrolling down to take a look at all the stuff I get up to. Don’t be afraid to contact me if you have any photographic or web design work!</h2>
-
       </div>
     </section>
+
     <hr/>
+
     <section class="section--center" id="photography">
       <h1 class="section--title">Photography</h1>
       <div class="section--left-col l--text-center">
-        <p class="l--text-left">
-          <span class="drop-cap">T</span>his is where my adventures in design and arts really started - I love to photograph most things but am particularly interested in architecture and live music.
-        </p>
-        <p class="l--text-left">
-          Check out my gallery by clicking the button below!
-        </p>
+        <div class="text-wrap l--text-left">
+          <?= $page->photographyText()->kirbytext() ?>
+        </div>
         <a href="#photographyLink" class="section--cta-button">The Gallery</a>
       </div>
       <div class="section--right-col">
@@ -65,46 +62,19 @@
         </div>
 
       </div>
-
     </section>
+
     <hr/>
 
     <section class="section--center" id="blog">
       <h1 class="section--title">Blog</h1>
       <div class="section--left-col">
-        <a class="blog--post"  style="background-image: url(http://fillmurray.com/350/500)">
-          <div class="blog--data">
-            <div class="blog--post-name">Post Title</div>
-            <div class="blog--post-date">Aug 26. 2016
-            </div>
-          </div>
-        </a>
-        <a class="blog--post" style="background-image: url(http://fillmurray.com/350/500)">
-          <div class="blog--data" >
-            <div class="blog--post-name">Post Title</div>
-            <div class="blog--post-date">Aug 26. 2016
-            </div>
-          </div>
-        </a>
-        <a class="blog--post" style="background-image: url(http://fillmurray.com/350/500)">
-          <div class="blog--data">
-            <div class="blog--post-name">Post Title</div>
-            <div class="blog--post-date">Aug 26. 2016
-            </div>
-          </div>
-        </a>
-        <a class="blog--post" style="background-image: url(http://fillmurray.com/350/500)">
-          <div class="blog--data">
-            <div class="blog--post-name">Post Title</div>
-            <div class="blog--post-date">Aug 26. 2016
-            </div>
-          </div>
-        </a>
+        <?php snippet('blog-thumbs') ?>
       </div>
       <div class="section--right-col l--text-center">
-        <p class="l--text-left"><span class="drop-cap">M</span>ore recently I have taken to writing blog posts about things I find interesting. From technology and design to food and drink, as well as anything in between. Hot topics at the moment include DIY as I am going through a bit of a rennovation of a house as well as many things on web design and development as I learn them. I also include thoughts and tutorials on web design and development as I learn more.
-        </p>
-        <p class="l--text-left">Check out some of my most recent posts on the left or click the button to check out an index containing all of them.</p>
+        <div class="text-wrap l--text-left">
+          <?= $page->blogText()->kirbytext() ?>
+        </div>
         <a href="#blogsection" class="section--cta-button">Blog Index</a>
       </div>
     </section>
@@ -114,8 +84,9 @@
     <section class="section--center" id="design">
       <h1 class="section--title">Design</h1>
       <div class="section--left-col">
-        <p class="l--text-left"><span class="drop-cap">R</span>ight now I am spending a lot of my time desinging beautiful things like websites to be displayed and viewed on the world wide web. I love to focus on making lightweight, responsive design which keeps users and customers engaged - whilst allowing the owners of the website to easily update the content in almost every way thinkable.</p>
-        <p class="l--text-left">Have a look at some of my previous design work! Hovering and clicking on the image of a website will take you to it.</p>
+        <div class="text-wrap l--text-left">
+          <?= $page->designText()->kirbytext() ?>
+        </div>
       </div>
       <div class="section--right-col l--text-center">
         <div class="design--site-wrap" id="design-img-wrap">
@@ -140,7 +111,9 @@
         </form>
       </div>
       <div class="section--right-col-shift">
-        <p class="l--text-left"><span class="drop-cap">F</span>eel free to contact me about any possible work using the form! I will respond as soon as I can.</p>
+        <div class="text-wrap l--text-left">
+          <?= $page->contactText()->kirbytext() ?>
+        </div>
       </div>
     </section>
 

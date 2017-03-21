@@ -12,7 +12,22 @@ fields:
     type:  textarea
     size:  small
 
-  text:
-    label: Text
+  photographyText:
+    label: Photography Text
+    type:  textarea
+    size:  large
+
+  blogText:
+    label: Blog Text
+    type:  textarea
+    size:  large
+
+  designText:
+    label: Design Text
+    type:  textarea
+    size:  large
+
+  contactText:
+    label: Contact Text
     type:  textarea
     size:  large

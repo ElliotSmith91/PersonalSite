@@ -2,8 +2,8 @@
 
   <main class="main" role="main">
 
-    <header class="wrap">
-      <h1><?= $page->title()->html() ?></h1>
+    <header class="wrap section--center">
+      <h1 class="section--title"><?= $page->title()->html() ?></h1>
 
       <?php
       // This page uses a separate controller to set variables, which can be used
@@ -16,11 +16,10 @@
           <?= $page->text()->kirbytext() ?>
         </div>
       <?php endif ?>
-
-      <hr />
+      
     </header>
 
-    <section class="wrap">
+    <section class="wrap section--center">
       <?php if($articles->count()): ?>
         <?php foreach($articles as $article): ?>
 
