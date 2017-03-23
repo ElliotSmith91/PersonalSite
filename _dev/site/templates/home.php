@@ -6,7 +6,7 @@
       <div class="section--left-col l--no-left-pad"  >
         <img class="intro--img" src="/assets/images/MeLineOpt.svg" id="intro-img"alt="">
       </div>
-      <div class="section--right-col l--no-pad l--no-top-margin">
+      <div class="section--right-col l--no-top-margin">
         <h2 class="section--type">
           <?= $page->intro()->kirbytext() ?>
         </h2>
@@ -103,12 +103,7 @@
     <section class="section--center">
       <h1 class="section--title">Contact</h1>
       <div class="section--left-col-shift l--text-center">
-        <form class="contact--form" action="index.html" method="post">
-          <input type="text" name="name" placeholder="Name">
-          <input type="text" name="email" placeholder="E-mail address">
-          <textarea name="message" rows="8" cols="80" placeholder="Message"></textarea>
-          <input type="submit" name="" value="Send">
-        </form>
+        <?php snippet('contact') ?>
       </div>
       <div class="section--right-col-shift">
         <div class="text-wrap l--text-left">

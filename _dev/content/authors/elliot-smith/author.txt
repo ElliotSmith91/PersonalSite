@@ -1,0 +1,7 @@
+name: Elliot Smith
+----
+bio: Elliot is currently finding his feet in the world, and has multiple interests from DIY and woodworking to music and technology.
+----
+email: example@example.com
+----
+website: 

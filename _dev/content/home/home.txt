@@ -2,19 +2,36 @@ Title: Home
 
 ----
 
-Intro: Yay! If you are seeing this, the installation of Kirby worked. :-)
+Intro:  Hi, my name is Elliot - I like to take photos, design websites and writing about different things.
+
+You should keep scrolling down to take a look at all the stuff I get up to. Don’t be afraid to contact me if you have any photographic or web design work!
 
 ----
 
-Text:
+PhotographyText:
 
-## Get started
+<span class="drop-cap">T</span>his is where my adventures in design and arts really started - I love to photograph most things but am particularly interested in architecture and live music.
 
-- Go to the (link: panel text: Panel) to give Kirby's admin interface a try
-- Check out the (link: http://getkirby.com/docs text: docs) and start building your own site
-- Follow (twitter: @getkirby) on Twitter for updates
-- Visit the (link: http://forum.getkirby.com text: forum) to connect with other Kirby users
-- Sign up to (link: (link: https://getkirby.com/#kosmos text: Kirby Kosmos), our monthly newsletter
-- (link: http://getkirby.com/support text: Get in contact) if you need support.
+Check out my gallery by clicking the button below!
 
-**Have fun with Kirby!**
+----
+
+blogText:
+
+<span class="drop-cap">M</span>ore recently I have taken to writing blog posts about things I find interesting. From technology and design to food and drink, as well as anything in between. Hot topics at the moment include DIY as I am going through a bit of a rennovation of a house as well as many things on web design and development as I learn them. I also include thoughts and tutorials on web design and development as I learn more.
+
+Check out some of my most recent posts on the left or click the button to check out an index containing all of them.
+
+----
+
+designText:
+
+<span class="drop-cap">R</span>ight now I am spending a lot of my time desinging beautiful things like websites to be displayed and viewed on the world wide web. I love to focus on making lightweight, responsive design which keeps users and customers engaged - whilst allowing the owners of the website to easily update the content in almost every way thinkable.
+
+Have a look at some of my previous design work! Hovering and clicking on the image of a website will take you to it.
+
+----
+
+contactText:
+
+<span class="drop-cap">F</span>eel free to contact me about any possible work using the form! I will respond as soon as I can.

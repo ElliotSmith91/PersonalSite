@@ -1,0 +1,10 @@
+@require "../1-base/vars.styl"
+.message
+  font-weight: 700
+  &--green
+    background-image: linear-gradient(to bottom, tint($success-grad, 60%) 0%, $success-grad 100%);
+    color: white
+  &--alert
+    color: $es-red
+    font-weight: bold
+    margin-bottom: ($default-margin/ 2)

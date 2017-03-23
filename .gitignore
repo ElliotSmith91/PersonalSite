@@ -27,6 +27,7 @@ _site/site/blueprints
 _site/site/controllers
 _site/site/snippets
 _site/site/templates
+_site/site/config/**
 
 ### Node ###
 # Logs

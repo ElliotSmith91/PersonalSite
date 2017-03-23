@@ -16,7 +16,8 @@ body
   margin-top: $default-margin
 
 hr
-  background-image: linear-gradient(to right, rgba($es-grey, 0.2), rgba($es-grey, 0.9), rgba($es-grey, 0.2));
+  background-color: $es-grey
+  // background-image: linear-gradient(to right, rgba($es-grey, 0.2), rgba($es-grey, 0.9), rgba($es-grey, 0.2));
   clear: both;
   width: (100vw / 1.618)%
   border: 0;
@@ -40,9 +41,17 @@ ul, li
 //   margin-left: 1em
 //   margin-right: 1em
 
+i
+  color: $es-red
+
 article, section
   overflow: hidden;
 
+/* hide contact honeypot from users */
+.honey {
+  position: absolute;
+  left: -9999px;
+}
 
 /* Let's get this party started */
 ::-webkit-scrollbar {

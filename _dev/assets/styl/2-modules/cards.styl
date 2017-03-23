@@ -1,0 +1,16 @@
+@require "../1-base/vars.styl"
+.card
+  &--blog
+    position: relative;
+    column(1/4)
+    +below($tablet-bp)
+      column(1/2)
+    &-hr
+      width: 100%
+      background-color: $es-red
+      height: 2px
+  &--blog-info-hr
+    width: 25%
+    background-color: $es-red
+    text-align: left
+    margin: 5px 0

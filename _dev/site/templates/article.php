@@ -4,11 +4,10 @@
 
     <article class="article single wrap  section--center">
 
-      <header class="article-header">
+
+      <header class="article--header">
         <h1 class="l--title"><?= $page->title()->html() ?></h1>
-        <div class="intro text l--text-center">
-          <?= $page->date('F jS, Y') ?>
-        </div>
+        <?php snippet('articlesInfo')  ?>
       </header>
 
       <?php snippet('coverimage', $page) ?>
