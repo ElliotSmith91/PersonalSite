@@ -57,3 +57,15 @@ window.addEventListener('scroll', function(){
   }
 
 });
+
+document.addEventListener('DOMContentLoaded', function(){
+  var targetDiv = document.body.getAttribute('data-scroll');
+  var position = document.getElementById(targetDiv).offsetTop;
+  // console.log(position);
+  document.body.scrollTop += position;
+  // document.body.scroll({
+  //   top: position,
+  //   left: 0,
+  //   behavior: 'smooth'
+  // });
+});

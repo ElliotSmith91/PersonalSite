@@ -1,19 +1,11 @@
-<?php if(isset($success)) :?>
-  <div class="message--green">
-    <?= $success ?>
+<section class="section--center" id="contact">
+  <h1 class="section--title">Contact</h1>
+  <div class="section--left-col-shift l--text-center">
+    <?php snippet('contactform') ?>
   </div>
-<?php endif ?>
-
-<?php if($alert): ?>
-  <div class="message--alert">
-    <ul>
-      <?php foreach($alert as $message): ?>
-        <li><?php echo html($message) ?></li>
-      <?php endforeach ?>
-    </ul>
+  <div class="section--right-col-shift">
+    <div class="text-wrap l--text-left">
+      <?= $page->contactText()->kirbytext() ?>
+    </div>
   </div>
-<?php endif ?>
-
-<?php if(!isset($success)) {
-  snippet('form');
-} ?>
+</section>

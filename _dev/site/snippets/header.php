@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Playfair+Display" rel="stylesheet">
 
 </head>
-<body>
+<body data-scroll="<?= isset($scroll) ? $scroll : null; ?>">
   <!-- responsive nav checkbox hack http://css-tricks.com/responsive-menu-concepts -->
   <input type="checkbox" id="menu">
   <div class="header--wrap section--center" id="header--wrap">
