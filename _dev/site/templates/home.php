@@ -15,7 +15,7 @@
 
     <hr/>
 
-    <section class="section--center" id="photography">
+    <section class="section--center photography" id="">
       <h1 class="section--title">Photography</h1>
       <div class="section--left-col l--text-center">
         <div class="text-wrap l--text-left">
@@ -66,7 +66,7 @@
 
     <hr/>
 
-    <section class="section--center" id="blog">
+    <section class="section--center blog" id="">
       <h1 class="section--title">Blog</h1>
       <div class="section--left-col">
         <?php snippet('blog-thumbs') ?>
@@ -81,7 +81,7 @@
 
     <hr/>
 
-    <section class="section--center" id="design">
+    <section class="section--center design" id="design">
       <h1 class="section--title">Design</h1>
       <div class="section--left-col">
         <div class="text-wrap l--text-left">

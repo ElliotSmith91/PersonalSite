@@ -15,24 +15,32 @@ window.addEventListener('scroll', function(){
   var intro = document.getElementById('intro');
   var flyingImgCont = document.getElementsByClassName('photography--flying-img-container');
   // var flyingImg = document.getElementsByClassName("photography--flying-img");
-  var photoSection = document.getElementById('photography');
-  var designSection = document.getElementById('design');
-  var blogSection = document.getElementById('blog');
+  var photoSection = document.querySelector('.photography');
+  var toTop = document.querySelector('.to-top');
+  var designSection = document.querySelector('.design');
+  var blogSection = document.querySelector('.blog');
   var blogItem = document.getElementsByClassName('blog--post');
   var designImg = document.getElementById('design-img-wrap');
-  // console.log(window.pageYOffset, photoSection.offsetTop);
+  // console.log(fromTop);
 
   if (fromTop > photoSection.offsetTop / 2 && photoFired === false) {
     Array.prototype.forEach.call(flyingImgCont, function(el, i){
       el.className += ' flying'+ i;
       i ++;
     });
-
     // console.log("only once");
     photoFired = true;
   }
 
-  if (fromTop > blogSection.offsetTop * 0.55 && blogFired === false) {
+  if (fromTop > 200) {
+    toTop.style.display = "block";
+    toTop.style.opacity = "1";
+  }else{
+    toTop.style.display = "none";
+    toTop.style.opacity = "0";
+  }
+
+  if (fromTop > blogSection.offsetTop * 0.85 && blogFired === false) {
     // console.log('blog fired');
     Array.prototype.forEach.call(blogItem, function(el, i){
       setTimeout(function(){
@@ -43,7 +51,7 @@ window.addEventListener('scroll', function(){
   }
 
 
-  if (fromTop > designSection.offsetTop * 0.65 && designFired === false) {
+  if (fromTop > designSection.offsetTop * 0.85 && designFired === false) {
     designImg.className += ' zoom';
     designFired = true;
   }

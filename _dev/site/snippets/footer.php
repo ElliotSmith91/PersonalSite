@@ -12,7 +12,9 @@
 
     </div>
   </footer>
-
+  <a href="#top" class="to-top" id="to-top" style="display:none" style="opacity: 0">
+    Top
+  </a>
   <?= js('assets/js/app.js') ?>
 </body>
 </html>

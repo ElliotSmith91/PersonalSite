@@ -37,3 +37,20 @@
     &:hover
       background-color: $es-red
       color: white
+
+.to-top
+  font-size: 0.85em
+  position: fixed
+  padding: 0.5em 0.75em
+  right: 0
+  bottom: 0
+  z-index: 10
+  text-align: center
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s ease-in-out
+  &:after
+    content: '\2191'
+    margin-left: .25em
+  & .showing
+    opacity: 1
+    display: block

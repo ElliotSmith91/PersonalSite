@@ -2,13 +2,35 @@
 .card
   &--blog
     position: relative;
+    // background-color: #ebe9de
+    // padding: 1em 1em
+    // top: -30px
     column(1/4)
     +below($tablet-bp)
       column(1/2)
-    &-hr
+    &:hover .card--blog-hr
       width: 100%
       background-color: $es-red
+      color: $es-red
       height: 2px
+      border: none
+    &-hr
+      width: 100%
+      background-color: $es-grey
+      height: 2px
+      color: $es-grey
+      border: none
+      position: relative;
+    &-link
+      bottom: 0
+      left: 0
+      opacity: 0
+      position: absolute;
+      right: 0
+      top: -10px
+      font-size: 0
+      z-index: 1
+
   &--blog-info-hr
     width: 25%
     background-color: $es-red

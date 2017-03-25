@@ -2,7 +2,7 @@
 
   <main class="main" role="main">
 
-    <header class="wrap section--center">
+    <header class="section--center">
       <h1 class="section--title"><?= $page->title()->html() ?></h1>
 
       <?php
@@ -24,7 +24,7 @@
         <?php if($articles->count()): ?>
           <?php foreach($articles as $article): ?>
             <article class="card--blog">
-              <a class="article--link" href="<?= $article->url() ?>"><?= $article->title()->html() ?></a>
+              <a class="card--blog-link" href="<?= $article->url() ?>"><?= $article->title()->html() ?></a>
               <header class="article-header">
                 <h2 class="article-title">
                   <?= $article->title()->html() ?>

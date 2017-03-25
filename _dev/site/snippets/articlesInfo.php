@@ -1,7 +1,7 @@
 <?php if($page!='blog'): ?>
 
 <?php $author = $pages->find('authors/' . $page->author()) ?>
-  <p class="article--info"><i>By </i>
+  <p class="article--info l--no-bottom-margin" ><i>By </i>
     <strong><?= $author->name()?></strong><i> On </i>
     <?= $page->date('F jS, Y')?>
   </p>
@@ -12,7 +12,7 @@
     <?php foreach($articles as $article): ?>
       <?php $authors = $pages->find('authors/' . $article->author()) ?>
       <p class="article--info"><i>By </i>
-        <strong><?= $authors->name()?></strong><i> On </i>
+        <strong><?= $authors->name()?></strong><i> on </i>
         <?= $article->date('F jS, Y')?>
       </p>
     <?php endforeach ?>
