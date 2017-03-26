@@ -13,7 +13,7 @@ _dev/site/accounts/*
 !assets/avatars/.gitkeep
 
 # Exclude thumbnails
-thumbs/*
+_site/thumbs/*
 !thumbs/index.html
 
 # Exclude cache

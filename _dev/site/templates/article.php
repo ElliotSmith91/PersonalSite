@@ -1,15 +1,12 @@
 <?php snippet('header') ?>
 
   <main class="main section--center" role="main">
-
-    <article class="article single wrap section--left-col-shift">
-
-
-      <header class="article--header">
-        <h1 class="l--title"><?= $page->title()->html() ?></h1>
-        <?php snippet('articlesInfo')  ?>
-        <hr class="article--header-hr ">
-      </header>
+    <header class="article--header">
+      <h1 class="l--title"><?= $page->title()->html() ?></h1>
+      <?php snippet('articlesInfo')  ?>
+      <hr class="article--header-hr ">
+    </header>
+    <article class="article section--left-col-shift l--no-top-margin">
 
       <?php snippet('coverimage', $page) ?>
 
@@ -18,6 +15,11 @@
       </div>
 
     </article>
+
+    <div class="section--right-col-shift l--no-top-margin author--wrap">
+      <?php snippet('authorsAside') ?>
+
+    </div>
 
     <?php snippet('prevnext', ['flip' => true]) ?>
 
