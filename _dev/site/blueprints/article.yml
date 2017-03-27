@@ -22,9 +22,13 @@ fields:
     required: true
     width: 1/2
 
-  author:
-    label: Author
-    type: text
+  authors:
+    label: Authors
+    type: structure
+    fields:
+      author:
+        label: Author
+        type: text
 
   text:
     label: Text

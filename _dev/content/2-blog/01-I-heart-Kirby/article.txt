@@ -9,7 +9,13 @@ Coverimage: extending.png
 
 ----
 
-author: elliot-smith
+Authors:
+
+-
+  author: elliot-smith
+
+-
+  author: joe-bloggs
 
 ----
 

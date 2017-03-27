@@ -1,0 +1,7 @@
+name: Joe Bloggs
+----
+bio: Elliot is currently finding his feet in the world and has multiple interests from DIY and woodworking to music and technology. He also created this website!
+----
+email: example@example.com
+----
+website:
