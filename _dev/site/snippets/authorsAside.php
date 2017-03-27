@@ -1,4 +1,3 @@
-
 <aside class="">
   <h3 class="author--wrap-title">About the authors</h2>
   <?php
@@ -8,7 +7,6 @@
     // foreach($pauthors->author() as $author):
     foreach($authors as $author):
    ?>
-
     <?php $author = $pages->find('authors/' . $author) ?>
       <h5 class="author--name"><?php echo $author->name() ?></h3>
       <hr class="author--name-hr" />
