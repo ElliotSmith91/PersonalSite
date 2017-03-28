@@ -16,7 +16,6 @@ window.addEventListener('scroll', function(){
   var flyingImgCont = document.getElementsByClassName('photography--flying-img-container');
   // var flyingImg = document.getElementsByClassName("photography--flying-img");
   var photoSection = document.querySelector('.photography');
-  var toTop = document.querySelector('.to-top');
   var designSection = document.querySelector('.design');
   var blogSection = document.querySelector('.blog');
   var blogItem = document.getElementsByClassName('blog--post');
@@ -30,14 +29,6 @@ window.addEventListener('scroll', function(){
     });
     // console.log("only once");
     photoFired = true;
-  }
-
-  if (fromTop > 200) {
-    toTop.style.display = "block";
-    toTop.style.opacity = "1";
-  }else{
-    toTop.style.display = "none";
-    toTop.style.opacity = "0";
   }
 
   if (fromTop > blogSection.offsetTop * 0.85 && blogFired === false) {

@@ -15,6 +15,8 @@
   <a href="#" class="to-top" id="to-top" style="display:none" style="opacity: 0">
     Top
   </a>
-  <?= js('assets/js/app.js') ?>
+  <?= js(array('assets/js/common.js',
+  'assets/js/zenscroll-min.js')) ?>
+  <?= js('@auto') ?>
 </body>
 </html>

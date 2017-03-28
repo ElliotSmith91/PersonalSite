@@ -19,7 +19,7 @@
     <?= $page->date('F jS, Y')?>
   </p>
 
-  <?php else: ?>
+<?php else: ?>
   <?php if($articles->count()): ?>
     <?php foreach($articles as $article): ?>
       <p class="article--info"><i>By </i>
@@ -42,4 +42,4 @@
         </p>
       <?php endforeach ?>
     <?php endif ?>
-  <?php endif ?>
+<?php endif ?>

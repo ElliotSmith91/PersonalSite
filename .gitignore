@@ -121,3 +121,6 @@ $RECYCLE.BIN/
 *.bak
 
 _dev/assets/images/flying_images/**
+
+
+personal/*

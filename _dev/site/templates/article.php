@@ -10,18 +10,18 @@
 
       <?php snippet('coverimage', $page) ?>
 
-      <div class="text">
+      <div class="">
         <?= $page->text()->kirbytext() ?>
       </div>
+      <hr class="article--end-hr"/>
+        <?php snippet('relatedArticles') ?>
 
     </article>
 
-    <div class="section--right-col-shift l--no-top-margin author--wrap">
+    <div class="section--right-col-shift l--no-top-margin">
       <?php snippet('authorsAside') ?>
-
+      <?php snippet('blogSub') ?>
     </div>
-
-    <?php snippet('prevnext', ['flip' => true]) ?>
 
   </main>
 

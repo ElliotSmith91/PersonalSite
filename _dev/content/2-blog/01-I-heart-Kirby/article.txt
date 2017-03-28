@@ -14,9 +14,6 @@ Authors:
 -
   author: elliot-smith
 
--
-  author: joe-bloggs
-
 ----
 
 Text:
@@ -30,12 +27,7 @@ There are a ton of different possibilities of how to extend Kirby. For sure, you
 
 However, if you ever get stuck, don’t hesitate to ask your question in [our forum](https://forum.getkirby.com/). It is also a great place to connect with other Kirby developers and to discover new plugins, developed by the Kirby community. If you like to stay up-to-date, you should also sign up to (link: https://getkirby.com/#kosmos text: Kirby Kosmos), our monthly newsletter.
 
-***
+----
+RelatedArticles:
 
-**Further reading**
-
-- (link: https://getkirby.com/blog text: Official Kirby Blog)
-- (link: https://getkirby.com/#kosmos text: Kirby Kosmos) (monthly newsletter)
-- (link: https://getkirby.com/docs text: Kirby Documentation)
-- (link: https://getkirby.com/docs/cookbook text: Kirby Cookbook)
-- (link: https://getkirby.com/docs/developer-guide text: Kirby Developer Guide)
+- blog/I-heart-Kirby

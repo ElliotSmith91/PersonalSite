@@ -1,0 +1,4 @@
+Title: Elliot Smith Blog Feed
+----
+Description: The latest updates from our blog
+----

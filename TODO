@@ -3,5 +3,9 @@ Use an image compressor with gulp...
 Bug check, change vars json file to be more readable...
 Webpack?!
 add tags and search to blog index
-add if to navbar for different sections (search etc.)
-Possibly use snippets for sections on homepage to make navbar possible
+possible cover qoute instead of image for articles
+add subscription form for blog and disqus community (maybe RSS)
+move logic for authorsAside to an article controller file
+create hrs .styl file
+option for cover-image in articles
+img thumbs
