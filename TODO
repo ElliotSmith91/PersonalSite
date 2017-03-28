@@ -9,3 +9,4 @@ move logic for authorsAside to an article controller file
 create hrs .styl file
 option for cover-image in articles
 img thumbs
+function calls for home.js to ensure not define variables on scroll

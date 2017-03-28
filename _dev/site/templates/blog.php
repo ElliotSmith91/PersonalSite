@@ -18,9 +18,7 @@
       <?php endif ?>
 
     </header>
-
-    <section class="wrap section--center l--no-top-margin">
-      <div class="blog--articles-wrap">
+      <div class="blog--articles-wrap section--left-col-shift l--no-top-margin">
         <?php if($articles->count()): ?>
           <?php foreach($articles as $article): ?>
             <article class="card--blog">
@@ -42,10 +40,28 @@
           <p>This blog does not contain any articles yet.</p>
         <?php endif ?>
       </div>
-    </section>
-    <aside class="blog--aside">
 
-    </aside>
+    <div class="section--right-col-shift l--no-top-margin">
+      <aside class="blog--aside">
+        <h3>Tags</h3>
+        <?php if($tags!= null) : ?>
+        <ul class="tags">
+          <?php foreach($tags as $tag): ?>
+          <li>
+            <a href="<?php echo url($page->url() . '/' . url::paramsToString(['tag' => $tag])) ?>">
+              <?php echo html($tag) ?>
+            </a>
+          </li>
+          <?php endforeach ?>
+        </ul>
+        <?php else: ?>
+          <p>no tags in articles</p>
+        <?php endif ?>
+        <hr>
+        <?php snippet('blogSub') ?>
+      </aside>
+
+    </div>
     <?php snippet('pagination') ?>
 
   </main>

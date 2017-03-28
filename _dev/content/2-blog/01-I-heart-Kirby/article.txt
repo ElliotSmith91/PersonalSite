@@ -31,3 +31,8 @@ However, if you ever get stuck, don’t hesitate to ask your question in [our fo
 RelatedArticles:
 
 - blog/I-heart-Kirby
+
+----
+
+tags:
+web,

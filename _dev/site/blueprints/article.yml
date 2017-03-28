@@ -33,3 +33,12 @@ fields:
   text:
     label: Text
     type: textarea
+
+  relatedArticles:
+    label: Related articles
+    type: textarea
+    buttons: false
+
+  tags:
+    label: Tags
+    type: tags
