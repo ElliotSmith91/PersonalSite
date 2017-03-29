@@ -35,4 +35,4 @@ RelatedArticles:
 ----
 
 tags:
-web,
+web, kirby

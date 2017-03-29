@@ -28,7 +28,7 @@ return function($site, $pages, $page) {
     // the data is fine, let's send the email
     } else {
       // create the body from a simple snippet
-      $body  = snippet('contactmail', $data, true);
+      $body  = snippet('homeSections/contact/contactmail', $data, true);
       // build the email
       $email = email(array(
         'to'      => 'youremail@email.com',

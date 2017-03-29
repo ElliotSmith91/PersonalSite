@@ -1,5 +1,5 @@
 window.addEventListener('scroll', function(){
-  var fromTop = document.body.scrollTop;
+  var fromTop = document.documentElement.scrollTop || document.body.scrollTop;
   var toTop = document.querySelector('.to-top');
   // console.log(fromTop);
 

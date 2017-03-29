@@ -10,3 +10,11 @@ create hrs .styl file
 option for cover-image in articles
 img thumbs
 function calls for home.js to ensure not define variables on scroll
+pagination blog styling
+ajax load more for blog
+photography gallery page (modals etc)
+modernizr for js detection and mobile?
+sort intro image for firefox/ edge
+optimise loading of google fonts :
+  https://www.lockedowndesign.com/load-google-fonts-asynchronously-for-page-speed/
+  https://www.filamentgroup.com/lab/font-events.html

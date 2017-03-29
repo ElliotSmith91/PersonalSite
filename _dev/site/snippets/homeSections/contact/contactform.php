@@ -15,5 +15,5 @@
 <?php endif ?>
 
 <?php if(!isset($success)) {
-  snippet('form');
+  snippet('homeSections/contact/form');
 } ?>

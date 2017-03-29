@@ -7,7 +7,7 @@
       <div class="card--blog">
         <a class="card--blog-link" href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
         <header class="article-header">
-          <h2 class="article-title">
+          <h2 class="article-title ">
             <?= $item->title()->html() ?>
           </h2>
           <hr class="card--blog-info-hr">
@@ -21,5 +21,4 @@
     <?php endforeach ?>
   </ul>
 </div>
-<hr>
 <?php endif ?>

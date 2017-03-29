@@ -12,6 +12,8 @@ html
 body
   background-color: $bg-colour
   scroll-behavior: smooth
+  dislay: flex
+  flex-direction: column
 
 * + *
   margin-top: $default-margin
@@ -59,8 +61,10 @@ blockquote {
   margin: 0
 }
 
-.footer
-  clear: both
+main {
+  flex: 1
+}
+
 
 /* Let's get this party started */
 ::-webkit-scrollbar {

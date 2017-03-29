@@ -10,3 +10,4 @@
     <a href="<?= $pages->find('blog')->url() ?>" class="section--cta-button">Blog Index</a>
   </div>
 </section>
+<hr>
