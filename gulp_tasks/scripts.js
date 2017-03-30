@@ -9,7 +9,7 @@ module.exports = function (gulp, plugins, conf) {
     gulp.src([
       conf.paths.assets.scripts.src
     ])
-    // .pipe(plugins.concat('app.js'))
+    .pipe(plugins.concat('app.js'))
     .pipe(gulp.dest(conf.paths.assets.scripts.dest));
     browserSync.reload();
   };
