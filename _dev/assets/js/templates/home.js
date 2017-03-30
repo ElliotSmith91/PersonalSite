@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function(event){
     var blogSection = document.querySelector('.blog');
     var blogItem = document.getElementsByClassName('blog--post');
     var designImg = document.getElementById('design-img-wrap');
-    console.log(fromTop);
+    // console.log(fromTop);
 
     if (fromTop > photoSection.offsetTop / 2 && photoFired === false) {
       Array.prototype.forEach.call(flyingImgCont, function(el, i){
@@ -51,16 +51,3 @@ document.addEventListener("DOMContentLoaded", function(event){
 
   });
 });
-
-
-// document.addEventListener('DOMContentLoaded', function(){
-//   var targetDiv = document.body.getAttribute('data-scroll');
-//   var position = document.getElementById(targetDiv).offsetTop;
-//   // console.log(position);
-//   document.body.scrollTop += position;
-//   // document.body.scroll({
-//   //   top: position,
-//   //   left: 0,
-//   //   behavior: 'smooth'
-//   // });
-// });

@@ -10,12 +10,12 @@
       $count = $authors->count();
       foreach($authors as $author):?>
         <?php $author = $pages->find('authors/' . $author) ?>
-        <strong><?= $author->name()?></strong>
+          <strong><?= $author->name()?></strong>
         <?php if($count > 1) :?>
           <strong> & </strong>
         <?php endif ?>
         <?php $count--; endforeach ?>
-        <i> On </i>
+      <i> On </i>
     <?= $page->date('F jS, Y')?>
   </p>
 
