@@ -2,7 +2,7 @@
 
   <main class="main section--center" role="main">
     <header class="article--header">
-      <h1 class="l--title"><?= $page->title()->html() ?></h1>
+      <h1 class="l--title  l--thin-text"><?= $page->title()->html() ?></h1>
       <?php snippet('articlesInfo')  ?>
       <hr class="article--header-hr ">
     </header>

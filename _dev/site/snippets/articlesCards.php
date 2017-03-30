@@ -5,7 +5,7 @@
       <a class="card--blog-link" href="<?= $article->url() ?>"><?= $article->title()->html() ?></a>
 
       <header class="article-header">
-        <h2 class="article-title">
+        <h2 class="article-title l--thin-text">
           <?= $article->title()->html() ?>
         </h2>
         <hr class="card--blog-info-hr">

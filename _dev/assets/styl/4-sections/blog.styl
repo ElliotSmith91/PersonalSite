@@ -39,7 +39,13 @@
     bottom: 0
     transform: translate(0%, 100%) scale(0.5);
     transition: all 0.3s ease-in-out
-
+    & .no-rgba
+      background-color: $es-red
 .showing
   opacity: 1
   transform: translateX(0px);
+
+.no-js
+  & .blog--post
+    transform: translateX(0px);
+    opacity: 1

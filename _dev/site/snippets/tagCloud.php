@@ -1,4 +1,4 @@
-<h3>Tags</h3>
+<h3 class="l--thin-text">Tags</h3>
 <?php if($tags!= null) : ?>
 <ul class="tags">
   <?php foreach($tags as $tag): ?>

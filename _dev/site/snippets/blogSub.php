@@ -1,5 +1,5 @@
 <div class="blog--sub-form">
-  <h3>Subscribe</h3>
+  <h3 class="l--thin-text">Subscribe</h3>
   <p>If you want to get updated with the latest blog entries directly to your inbox, put your e-mail address in the form below!</p>
   <!-- Begin MailChimp Signup Form -->
   <div id="mc_embed_signup" class="blog--sub-form">

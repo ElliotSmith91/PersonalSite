@@ -14,14 +14,11 @@ Authors:
 -
   author: elliot-smith
 
--
-  author: joe-bloggs
-
 ----
 
 Text:
 
-Kirby comes as a clean package, aiming to provide you with a useful toolkit to get started with. But it it is also very modular and extensible. Rather than providing a solution to every imaginable problem out of the box, Kirby prefers to let *you* decide which features your project really needs.
+<span class="drop-cap">K</span>irby comes as a clean package, aiming to provide you with a useful toolkit to get started with. But it it is also very modular and extensible. Rather than providing a solution to every imaginable problem out of the box, Kirby prefers to let *you* decide which features your project really needs.
 
 (pullquote: There are a ton of different possibilities of how to extend Kirby. Maybe you’ll install plugins or write your own custom Kirbytags or even Panel fields? position: right)
 
