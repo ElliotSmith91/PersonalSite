@@ -13,9 +13,13 @@
       </div>
     </footer>
     <a href="#" class="to-top" id="to-top" style="display:none" style="opacity: 0">
-      Top
+      Scroll to top
     </a>
     <?= js('assets/js/app.js') ?>
     <?= js('@auto') ?>
+    <!--[if lt IE 9]>
+      <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+      <script src="assets/js/ie-love.min.js"></script>
+    <![endif]-->
   </body>
 </html>

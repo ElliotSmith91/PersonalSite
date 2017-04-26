@@ -7,31 +7,19 @@
 // var photoSection = document.getElementById('photography');
 // var designSection = document.getElementById('design');
 // var designImg = document.getElementById('design-img-wrap');
-var photoFired=false;
 var designFired=false;
 var blogFired=false;
 document.addEventListener("DOMContentLoaded", function(event){
-  console.log('dom loaded');
+  // console.log('dom loaded');
   window.addEventListener('scroll', function(){
     var fromTop = document.documentElement.scrollTop || document.body.scrollTop;
     var intro = document.getElementById('intro');
-    var flyingImgCont = document.getElementsByClassName('photography--flying-img-container');
-    // var flyingImg = document.getElementsByClassName("photography--flying-img");
     var photoSection = document.querySelector('.photography');
     var designSection = document.querySelector('.design');
     var blogSection = document.querySelector('.blog');
     var blogItem = document.getElementsByClassName('blog--post');
     var designImg = document.getElementById('design-img-wrap');
     // console.log(fromTop);
-
-    if (fromTop > photoSection.offsetTop / 2 && photoFired === false) {
-      Array.prototype.forEach.call(flyingImgCont, function(el, i){
-        el.className += ' flying'+ i;
-        i ++;
-      });
-      // console.log("only once");
-      photoFired = true;
-    }
 
     if (fromTop > blogSection.offsetTop * 0.85 && blogFired === false) {
       // console.log('blog fired');

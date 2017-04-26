@@ -47,5 +47,7 @@ return function($site, $pages, $page) {
       }
     }
   }
-  return compact('alert', 'success');
+  $photographyImage= new Asset('assets/images/Photography_montage.jpg');
+  $designImage = new Asset('assets/images/designbydawnscreenshot.jpg');
+  return compact('alert', 'success', 'photographyImage', 'designImage');
 };

@@ -1,0 +1,15 @@
+{
+  "short_name": "Elliot Smith blog",
+  "name": "Elliot Smith Media blog",
+  "start_url": "./blog",
+  "display": "browser",
+  "orientation": "portrait",
+  "theme_color": "#BE1E2D"
+  "icons": [
+    {
+      "source": "../assets/images/logo.png",
+      "sizes": "108x108",
+      "type": "image/png"
+    },
+  ],
+}

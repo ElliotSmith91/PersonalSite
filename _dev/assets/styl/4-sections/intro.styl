@@ -1,9 +1,28 @@
 @require "../1-base/vars.styl"
 .intro
   &--img
-    height: 100%
-    min-width: 200%
-    object-fit: cover;
+    background-image: url("/assets/images/MeLineOpt.svg");
+    background-repeat: no-repeat;
+    background-position: center left
+    background-size: cover;
+    height: 500px
+    min-width: 225%
+    display: inline-block;
     +below($tablet-bp)
-      min-width: 300%
-      height: 150px
+      margin-left: $default-margin
+      background-position
+      height: 200px
+
+.no-svg .intro--img
+  background-image: url("/assets/images/MeLineOpt.png");
+  background-repeat: no-repeat;
+  background-position: center left
+  background-size: cover;
+  height: 500px
+  max-height: 300%
+  min-width: 300%
+  display: inline-block;
+  +below($tablet-bp)
+    margin-left: $default-margin
+    background-position
+    height: 200px

@@ -22,17 +22,40 @@ header[role="banner"]
     transition-property: margin-top, height
     +below($tablet-bp)
       height: 100px
+
+  &--image
+
   &--logo-link
-    // height: 100px
-    // max-width: 100px
+
     column(1/4)
     display: inline-block;
     +below($tablet-bp)
       height: 60px
       width: 80px
   &--logo
+    background-image: url("/assets/images/logo.svg")
+    height: auto
+    max-width: 150px
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left
+    // background-size: cover;
     height: 100px
+    margin-left: 0.5em
     width: auto
     +below($tablet-bp)
       height: 60px
       width: 80px
+
+.no-svg .header--logo-link
+  background-image: url("/assets/images/logo.png")
+  height: auto
+  max-width: 150px
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center
+  column(1/4)
+  display: inline-block;
+  +below($tablet-bp)
+    height: 60px
+    width: 80px

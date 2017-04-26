@@ -3,7 +3,6 @@
 html
   box-sizing: border-box;
   overflow-y: scroll
-  min-height: 100%
   +below($tablet-bp)
     overflow-x: hidden
 
@@ -12,7 +11,7 @@ html
 
 body
   background-color: $bg-colour
-  scroll-behavior: smooth
+  min-height: 100vh
   display: flex
   flex-direction: column
 

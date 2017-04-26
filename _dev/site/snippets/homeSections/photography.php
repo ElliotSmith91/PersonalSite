@@ -8,40 +8,14 @@
   </div>
   <div class="section--right-col">
     <div class="photography--img-container">
-      <img class="photography--img l--full-w-img img-border" src="/assets/images/desk.jpg" alt="">
-      <div class="photography--flying-img-container">
-        <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print4.jpg" alt="">
-      </div>
-      <div class="photography--flying-img-container">
-        <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print9.jpg" alt="">
-      </div>
-      <div class="photography--flying-img-container">
-        <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print36.jpg" alt="">
-      </div>
-      <div class="photography--flying-img-container">
-        <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print149.jpg" alt="">
-      </div>
-      <div class="photography--flying-img-container">
-        <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print157.jpg" alt="">
-      </div>
-      <div class="photography--flying-img-container">
-        <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print158.jpg" alt="">
-      </div>
-      <div class="photography--flying-img-container">
-        <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print175.jpg" alt="">
-      </div>
-      <div class="photography--flying-img-container">
-        <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print177.jpg" alt="">
-      </div>
-      <div class="photography--flying-img-container">
-        <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print191.jpg" alt="">
-      </div>
-      <div class="photography--flying-img-container">
-        <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/print194.jpg" alt="">
-      </div>
-      <div class="photography--flying-img-container">
-        <img class="photography--flying-img" id="flying-img" src="/assets/images/flying_images/me.jpg" alt="">
-      </div>
+      <img class="photography--img l--full-w-img img-border" src="<?= $photographyImage->resize(800, null, 70)->url ?>" alt="" sizes="65vw" srcset="
+			<?php echo $photographyImage->resize(200, null, 70)->url ?> 200w,
+			<?php echo $photographyImage->resize(400, null, 70)->url ?> 400w,
+			<?php echo $photographyImage->resize(800, null, 70)->url ?> 800w,
+			<?php echo $photographyImage->resize(1200, null, 70)->url ?> 1200w,
+			<?php echo $photographyImage->resize(1600, null, 70)->url ?> 1600w,
+			<?php echo $photographyImage->resize(1800, null, 70)->url ?> 1800w,
+			<?php echo $photographyImage->resize(2000, null, 70)->url ?> 2000w">
     </div>
 
   </div>

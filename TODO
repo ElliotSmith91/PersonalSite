@@ -1,20 +1,21 @@
-Expand readme file
 Use an image compressor with gulp...
 Bug check, change vars json file to be more readable...
 Webpack?!
-add tags and search to blog index
+add search to blog index
 possible cover qoute instead of image for articles
-add subscription form for blog and disqus community (maybe RSS)
-move logic for authorsAside to an article controller file
+disqus community (maybe RSS)
 create hrs .styl file
 option for cover-image in articles
-img thumbs
 function calls for home.js to ensure not define variables on scroll
 pagination blog styling
 ajax load more for blog
 photography gallery page (modals etc)
-modernizr for js detection and mobile?
-sort intro image for firefox/ edge
 optimise loading of google fonts :
   https://www.lockedowndesign.com/load-google-fonts-asynchronously-for-page-speed/
   https://www.filamentgroup.com/lab/font-events.html
+
+photog galler - 5/8 span of left - lazysizes images hover effect with tagged category.
+
+move section--col css into layout folders, same for title
+
+photography gallery controller to make lqip for each photo https://getkirby.com/docs/cheatsheet/helpers/thumb
