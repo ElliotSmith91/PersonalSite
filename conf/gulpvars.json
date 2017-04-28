@@ -54,7 +54,7 @@
 
     "content": {
       "src": "./_dev/content/**",
-      "dest": "./_site/content/**"
+      "dest": "./_site/content/**/**"
     }
   }
 }

@@ -6,6 +6,7 @@ module.exports = function (gulp, plugins, conf) {
       '!_dev/assets/js/**',
       conf.paths.site.src,
       conf.paths.content.src,
+      // '!_dev/content/**/*.jpg',
       '!_dev/assets/styl/**',
       '!_dev/assets/styl/',
     ],{base : conf.paths.dev})

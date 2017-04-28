@@ -8,6 +8,15 @@
       <?php if($item && (string)$item->template() == (string)$item->intendedtemplate() ) : ?> <!-- if item has a template then create link with item url -->
         <li class="nav--menu-item<?= r($item->isOpen(), ' is-active') ?>">
           <a class="nav--menu-item-link" href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
+          <?php if($item->hasVisibleChildren() && ! $item->is(page('blog'))) : ?>
+          <ul class="submenu">
+            <?php foreach($item->children()->visible() as $p) : ?>
+              <li>
+                <a href="<?= $p->url() ?>"><?= $p->title()->html() ?></a>
+              </li>
+            <?php endforeach ?>
+          </ul>
+          <?php endif ?>
         </li>
       <?php elseif($page->isHomePage() === true) : ?> <!-- if the item has no template and current page is the homepage then add a hash to page link -->
         <li class="nav--menu-item<?= r($item->isOpen(), ' is-active') ?>">

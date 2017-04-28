@@ -16,6 +16,13 @@ optimise loading of google fonts :
 
 photog galler - 5/8 span of left - lazysizes images hover effect with tagged category.
 
+don't clean thumbs directory in gulp task
+
 move section--col css into layout folders, same for title
 
-photography gallery controller to make lqip for each photo https://getkirby.com/docs/cheatsheet/helpers/thumb
+Have random images from photography subsections on gallery index and then subsections as seperate pages
+
+remove categories for gallery and use seperate sub galleries on new pages 
+
+
+animated categories for photography page (translate x)

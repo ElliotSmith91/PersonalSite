@@ -17,6 +17,9 @@ module.exports = function(gulp, plugins, conf) {
       conf.paths.site.templates.dest,
 //      '!' + conf.paths.dest + 'site/templates',
       conf.paths.content.dest,
+      // '!_site/content/1-photography',
+      // '!_site/content/**/*.jpg',
+      // '!' + conf.paths.dest + '/*.jpg'
 //      '!' + conf.paths.dest + 'content',
     ]);
   };

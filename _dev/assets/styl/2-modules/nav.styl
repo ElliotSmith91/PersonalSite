@@ -20,7 +20,8 @@
       align()
   &--menu-item
     display: inline-block
-    padding: 0 .5em
+    padding: 0 .75em
+    position: relative
     +below($tablet-bp)
       padding: 0
       text-align: center
@@ -40,3 +41,60 @@
   border-bottom: 1px solid $es-red
   a
     color: black
+
+// .submenu
+//   position: relative
+
+ul.submenu
+  position: absolute;
+  left: 0
+  display: none
+  text-align: center
+  min-width: 100%
+  min-height: 100%
+  z-index: 1
+  // border-bottom: 1px solid $es-red
+
+ul.submenu li
+  text-align: center
+  min-width: 100%
+  min-height: 100%
+  padding: 0 .5em
+  // margin: .2em 0
+  background-color: darken($es-grey, 0)
+  // border-bottom: 1px solid $es-red
+  // border-left: 1px solid $es-red
+  // border-right: 1px solid $es-red
+
+ul.submenu li a
+  color: white
+  font-weight: 300
+  &:hover
+    color: $es-red
+
+li:hover > ul.submenu
+  display: block
+  perspective: 1000px
+
+  li
+    opacity: 0
+    transform-origin: top
+    for num in (1..4)
+      &:nth-child({num})
+        animation: 300ms ease-in-out submenu
+        animation-delay: (150ms * num) - 300
+        animation-fill-mode: forwards;
+      &:last-child
+        border-bottom: 1px solid $es-red
+
+@keyframes submenu
+  0%
+    opacity: 0
+    transform: rotateX(-90deg);
+
+  // 80%
+    // transform: scale(1.1);
+
+  100%
+    opacity: 1
+    transform: rotateX(0deg);

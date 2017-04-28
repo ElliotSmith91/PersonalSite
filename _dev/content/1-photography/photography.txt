@@ -2,4 +2,8 @@ Title: Photography
 
 ----
 
-Text: 
+Text: Here are some photos randomly selected from the sub-galleries. If you're interested in seeing more of a particular gallery click the links here:
+
+----
+
+Categories: Travel,Music,Architecture

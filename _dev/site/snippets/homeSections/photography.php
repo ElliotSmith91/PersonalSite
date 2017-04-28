@@ -4,7 +4,7 @@
     <div class="text-wrap l--text-left">
       <?= $page->photographyText()->kirbytext() ?>
     </div>
-    <a href="#photographyLink" class="section--cta-button">The Gallery</a>
+    <a href="<?= $pages->find('photography')->url() ?>" class="section--cta-button">The Gallery</a>
   </div>
   <div class="section--right-col">
     <div class="photography--img-container">

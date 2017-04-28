@@ -1,9 +1,22 @@
 title: Photography
 
-files: false
+pages: photography
+
+files:
+    type: image
+    sortable: true
+  fields:
+    caption:
+      label: Caption
+      type: textarea
+      width: 1/2
+    alttext:
+      label: Alternative Text
+      type: textarea
+      help: This text will be displayed if image can't be shown, or user is using accessability mode - useful for increasing search rating
+      width: 1/2
 
 options:
-  template: photography
   status: false
   url: false
 

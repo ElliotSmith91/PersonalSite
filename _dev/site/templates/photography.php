@@ -1,14 +1,21 @@
 <?php snippet('header') ?>
 
-  <main class="main section--center" role="main">
+  <main class="main" role="main">
 
-    <header class="wrap section--title">
-      <h1><?= $page->title()->html() ?></h1>
+    <header class="wrap">
+      <h1 class=" section--title l--no-top-margin"><?= $page->title()->html() ?></h1>
     </header>
-
-    <div class="wrap wide">
-      <?php snippet('showcase') ?>
+    <div class=" l--text-center top photography--right" >
+      <aside class="">
+        <p><?= $page->text()->html() ?></p>
+        <?php snippet('photographycategories') ?>
+      </aside>
     </div>
+    <div class=" photography--gallery photography--left">
+      <?php snippet('photographythumb') ?>
+    </div>
+
+
 
   </main>
 

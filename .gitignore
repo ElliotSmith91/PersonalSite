@@ -124,3 +124,6 @@ _dev/assets/images/flying_images/**
 
 
 personal/*
+
+*.jpg
+*.jpeg

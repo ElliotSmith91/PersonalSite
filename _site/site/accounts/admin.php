@@ -7,5 +7,6 @@ email: admin@admin.co.uk
 language: en
 role: admin
 history:
+  - photography
   - blog/I-heart-Kirby
   - home
